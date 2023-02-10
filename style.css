@@ -1,0 +1,48 @@
+h3
+{
+font-family:'Fredoka One', cursive;
+font-size: medium;
+
+
+}
+
+#Snapshot:hover
+{
+color: aqua;
+font-size: large;
+}
+
+canvas {
+  animation-name:Clown;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  border: 10px solid limegreen;
+  
+
+
+}
+
+@keyframes Clown {
+from{
+    box-shadow: 5px 10px 15px orangered;
+} 
+to{
+    box-shadow: 5px 10px 15px rgb(11, 127, 151);
+}
+    from{
+        border-radius: 5px;
+    } 
+    to{
+        border-radius: 50px;
+    
+
+}
+}
+
+body
+{
+background-color: aqua;
+
+
+}
+
