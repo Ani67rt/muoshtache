@@ -1,8 +1,8 @@
 function setup(){
-Canvas=createCanvas(400, 400)
-Canvas.center()
-Canvas.position(550,150)
-video= createCapture(VIDEO)
+canvas=createcanvas(400, 400)
+canvas.center()
+canvas.position(550,150)
+video= createcapture(VIDEO)
 video.hide()
 video.size(400, 400)
 
